@@ -1,0 +1,118 @@
+body{
+
+	margin: 0px;
+	background-color: pink;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+body h1, h2, h3, h4, h5, h6, p, a{
+	font-family: 'Montserrat', sans-serif;
+}
+	
+}
+/*----------PAGE ONE------------*/
+#header {
+	height: 10vh;
+	width: 100%;
+	
+}
+
+.menu-utama{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 20px 30% 20px 30%;
+	align-content: center;
+	background-color: #000;
+	
+}
+
+.menu-isi a {
+	 text-decoration: none;
+	 color: #fff;
+}
+
+
+#one {
+		
+		height: 90vh;
+		background-image: url('css/image/background.png');
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        -o-background-size: 100% 100%;
+        background-size: 100% 100%;
+		color: #fff;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+}
+
+
+/*---------PAGE TWO------------*/
+
+#two{
+		background-color: #e9e7ec;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+}
+
+.aboutme{
+	background-color: red;
+	height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 0px 30%;
+}
+
+
+.skill_title{
+	height: 10vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.skill_section{
+	height: 50vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.item{
+	width: 20%;
+}
+
+/*---------PAGE THREE------------*/
+
+#three {
+		background-color: #e9e7ec;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+}
+
+
+.project_title{
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+}
+
+.project_section{
+	height: 90vh;
+	display: flex;
+	align-items:flex-start;
+}
+
+.item2{
+	width: 20%;
+}
